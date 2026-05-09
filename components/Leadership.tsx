@@ -6,10 +6,17 @@ import { Users, Star } from "lucide-react";
 export default function Leadership() {
   const activities = [
     {
+      org: "TAAKRA 2026 (UCP)",
+      role: "Logistics Sub-Core",
+      desc: "Participated as Logistics Sub-Core in UCP's five-day mega event featuring 64 competitions, 22 categories, and cash prizes worth PKR 2,575,000.",
+      year: "Feb 2026",
+      color: "hover:text-green-400"
+    },
+    {
       org: "IEEE Computer Society",
       role: "Director Graphics",
       desc: "Leading the design team for event branding, creating high-impact visuals, and managing digital assets for major society events.",
-      year: "Present",
+      year: "Oct 2025 - Feb 2026",
       color: "hover:text-blue-400"
     },
     {
@@ -26,13 +33,7 @@ export default function Leadership() {
       year: "Past",
       color: "hover:text-red-400"
     },
-    {
-      org: "Code Rush",
-      role: "Participant",
-      desc: "Competed in high-intensity university-level algorithmic challenges, honing problem-solving and optimization skills.",
-      year: "Past",
-      color: "hover:text-purple-400"
-    },
+
   ];
 
   return (

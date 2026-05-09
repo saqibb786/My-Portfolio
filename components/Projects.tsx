@@ -80,6 +80,34 @@ const projects: Project[] = [
     description: "Secure banking backend with robust transaction processing logic.",
     link: "https://github.com/Saqibb786/Vaultify"
   },
+  {
+    id: 10,
+    title: "AI Chef",
+    category: "React / AI",
+    description: "A smart recipe generator built with React. Part of a comprehensive React project collection.",
+    link: "https://github.com/Saqibb786/AI-Chef"
+  },
+  {
+    id: 11,
+    title: "Meme Generator",
+    category: "React / Frontend",
+    description: "Interactive application to create custom memes using dynamic image APIs and React state.",
+    link: "https://github.com/Saqibb786/Meme-Generator"
+  },
+  {
+    id: 12,
+    title: "React Static Pages",
+    category: "React / Frontend",
+    description: "Foundational project exploring React components, styling, and structuring static pages.",
+    link: "https://github.com/Saqibb786/Practice-React"
+  },
+  {
+    id: 13,
+    title: "Travel Journal",
+    category: "React / Frontend",
+    description: "A sleek digital travel diary mapping out various destinations utilizing React component architecture.",
+    link: "https://github.com/Saqibb786/Travel-Journal---React"
+  },
 ];
 
 export default function Projects() {
