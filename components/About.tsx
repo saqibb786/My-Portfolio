@@ -35,7 +35,7 @@ export default function About() {
                 I'm a final-year Computer Science student at the University of Central Punjab, Lahore.
               My journey lies at the intersection of <span className="text-white font-medium">Software engineering</span> and <span className="text-white font-medium">Artificial intelligence</span>.
               I've completed the IBM Data Science Professional Certificate and multiple courses from Google/DeepLearning.AI/FreeCodeCamp.
-              Recently, I scored in the <span className="text-white font-medium">98.5 percentile</span> in the National Skills Competency Test by HEC.
+              Recently, I scored <span className="text-white font-medium">98.5 percentile</span> in the National Skills Competency Test by HEC.
             </p>
             <p>
               I enjoy turning complex problems into working products—whether that means training models to extract meaning from data 
