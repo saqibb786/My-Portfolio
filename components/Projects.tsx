@@ -18,21 +18,21 @@ const projects: Project[] = [
     id: 1,
     title: "EcoScout (FYP)",
     category: "AI / Computer Vision",
-    description: "AI-driven video analytics to detect vehicles littering and smoke emissions in real-time.",
+    description: "Engineered real-time AI video analytics to detect vehicle littering and smoke emissions.",
     link: "https://github.com/Saqibb786/EcoScout",
   },
   {
     id: 2,
     title: "Multi-Class Emotion Recognition",
     category: "NLP / Deep Learning",
-    description: "Multi-label NLP model using GRU & BERT to detect emotions like joy, anger, and fear from text.",
+    description: "Developed a multi-label NLP model using GRU and BERT to classify emotions from text.",
     link: "https://github.com/Saqibb786/Emotion-Recognition-from-textual-data",
   },
   {
     id: 3,
     title: "Heart Stroke Prediction",
     category: "Machine Learning",
-    description: "Machine learning model to predict the likelihood of a heart stroke based on various health metrics.",
+    description: "Trained a machine learning model to predict heart stroke likelihood based on health metrics.",
     link: "https://github.com/Saqibb786/Heart-Stroke-Prediction",
     liveLink: "https://heartstrokeprediction-by-saqib.streamlit.app/",
   },
@@ -40,14 +40,14 @@ const projects: Project[] = [
     id: 4,
     title: "OCR Tool",
     category: "Python / FastAPI",
-    description: "Fast and reliable optical character recognition API for image-to-text conversion.",
+    description: "Built a fast and reliable FastAPI service for optical character recognition and image-to-text conversion.",
     link: "https://github.com/Saqibb786/OCR-Dashboard-in-Python",
   },
   {
     id: 5,
     title: "GameHub Clone",
     category: "React / TypeScript",
-    description: "Responsive game discovery platform with a clean, component-driven UI.",
+    description: "Designed a responsive game discovery platform featuring a clean, component-driven React UI.",
     link: "https://github.com/Saqibb786/GameHub",
     liveLink: "https://game-hub-by-saqib.vercel.app",
   },
@@ -55,7 +55,7 @@ const projects: Project[] = [
     id: 6,
     title: "DevPeaks",
     category: "Full Stack / TypeScript",
-    description: "A comprehensive developer platform designed to track progress, showcase skills, and engage with the tech community.",
+    description: "Architected a comprehensive developer platform to track progress, showcase skills, and build community.",
     link: "https://github.com/Saqibb786/DevPeaks",
     liveLink: "https://devpeaksolutions.vercel.app/",
   },
@@ -63,50 +63,64 @@ const projects: Project[] = [
     id: 7,
     title: "Aspen",
     category: "React Native / Mobile",
-    description: "Interactive mobile application built with Expo for smooth user navigation.",
+    description: "Created an interactive React Native mobile application focused on smooth, intuitive user navigation.",
     link: "https://github.com/Saqibb786/Aspen",
   },
   {
     id: 8,
     title: "Heart & Diabetes Prediction",
     category: "Machine Learning",
-    description: "Risk assessment system using KNN and Naive Bayes to predict heart and diabetes risk from medical data.",
+    description: "Implemented KNN and Naive Bayes algorithms to assess and predict heart and diabetes risks.",
     link: "https://github.com/Saqibb786/Heart_Diabetes_Prediction_FastApi",
   },
   {
     id: 9,
     title: "Vaultify",
     category: "Java / Backend",
-    description: "Secure banking backend with robust transaction processing logic.",
+    description: "Programmed a secure Java banking backend featuring robust transaction processing logic.",
     link: "https://github.com/Saqibb786/Vaultify"
   },
   {
     id: 10,
     title: "AI Chef",
     category: "React / AI",
-    description: "A smart recipe generator built with React. Part of a comprehensive React project collection.",
+    description: "Built an intelligent recipe generator utilizing React to dynamically create culinary ideas.",
     link: "https://github.com/Saqibb786/AI-Chef"
   },
   {
     id: 11,
     title: "Meme Generator",
     category: "React / Frontend",
-    description: "Interactive application to create custom memes using dynamic image APIs and React state.",
+    description: "Developed an interactive React application for creating custom memes via dynamic image APIs.",
     link: "https://github.com/Saqibb786/Meme-Generator"
   },
   {
     id: 12,
     title: "React Static Pages",
     category: "React / Frontend",
-    description: "Foundational project exploring React components, styling, and structuring static pages.",
+    description: "Constructed foundational static pages to master React components, styling, and structure.",
     link: "https://github.com/Saqibb786/Practice-React"
   },
   {
     id: 13,
     title: "Travel Journal",
     category: "React / Frontend",
-    description: "A sleek digital travel diary mapping out various destinations utilizing React component architecture.",
+    description: "Designed a digital travel diary utilizing React architecture to map out global destinations.",
     link: "https://github.com/Saqibb786/Travel-Journal---React"
+  },
+  {
+    id: 14,
+    title: "HR Real Estate",
+    category: "Full Stack / Next.js",
+    description: "Launched a premium real estate platform for DHA Lahore properties using Next.js 14 and Prisma.",
+    link: "https://github.com/Saqibb786/HRRealEstate"
+  },
+  {
+    id: 15,
+    title: "CLI Expense Tracker",
+    category: "Python / Scripting",
+    description: "Scripted a persistent Python command-line application for tracking personal expenses via CSV.",
+    link: "https://github.com/Saqibb786/Expense-Tracker"
   },
 ];
 
