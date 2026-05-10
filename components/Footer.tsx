@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, MessageCircle } from "lucide-react";
+import { Github, Linkedin, Mail, MessageCircle, Twitter } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,12 +10,14 @@ export default function Footer() {
     <footer className="relative w-full bg-[#0a0a0a] border-t border-white/10 text-white z-30 font-sans">
       <div className="max-w-7xl mx-auto px-4 md:px-12 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-24">
-          
           {/* About Column */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold tracking-tight text-white flex items-center gap-2">
-               {/* Replaced Image Logo with Text for reliability if asset missing */}
-               <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Saqib</span> Ali Butt
+              {/* Replaced Image Logo with Text for reliability if asset missing */}
+              <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+                Saqib
+              </span>{" "}
+              Ali Butt
             </h3>
             <p className="text-neutral-400 leading-relaxed text-sm">
               Aspiring Software Engineer <br />
@@ -26,12 +28,30 @@ export default function Footer() {
 
           {/* Links Column */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-6">Quick Links</h3>
+            <h3 className="text-lg font-semibold text-white mb-6">
+              Quick Links
+            </h3>
             <ul className="space-y-4 text-neutral-400 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Projects</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Skills</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+              <li>
+                <a href="#" className="hover:text-white transition-colors">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition-colors">
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition-colors">
+                  Skills
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition-colors">
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -40,7 +60,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-white">Connect</h3>
             <div className="flex gap-4">
               <a
-                href="https://github.com/Saqibb786"
+                href="https://github.com/saqibb786"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -49,13 +69,22 @@ export default function Footer() {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://www.linkedin.com/in/saqib-ali-butt/"
+                href="https://www.linkedin.com/in/saqibb786"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
                 className="p-3 bg-white/5 rounded-full hover:bg-white/10 hover:text-white text-neutral-400 transition-all border border-white/5"
               >
                 <Linkedin className="w-5 h-5" />
+              </a>
+              <a
+                href="https://x.com/Saqibbdev"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X (Twitter)"
+                className="p-3 bg-white/5 rounded-full hover:bg-white/10 hover:text-white text-neutral-400 transition-all border border-white/5"
+              >
+                <Twitter className="w-5 h-5" />
               </a>
               <a
                 href="https://wa.me/qr/XEFTOBUHK4NQD1"
@@ -66,8 +95,8 @@ export default function Footer() {
               >
                 <MessageCircle className="w-5 h-5" />
               </a>
-              <a 
-                href="mailto:saqibbutt10000@gmail.com" 
+              <a
+                href="mailto:saqibb.dev@gmail.com"
                 aria-label="Email"
                 className="p-3 bg-white/5 rounded-full hover:bg-white/10 hover:text-white text-neutral-400 transition-all border border-white/5"
               >
@@ -75,14 +104,13 @@ export default function Footer() {
               </a>
             </div>
             <div className="text-sm text-neutral-500 font-mono">
-                saqibbutt10000@gmail.com
+              saqibb.dev@gmail.com
             </div>
           </div>
-
         </div>
 
         <div className="mt-16 pt-8 border-t border-white/5 text-center text-neutral-600 text-xs uppercase tracking-widest">
-           &copy; {currentYear} Saqib Ali Butt. All rights reserved.
+          &copy; {currentYear} Saqib Ali Butt. All rights reserved.
         </div>
       </div>
     </footer>
